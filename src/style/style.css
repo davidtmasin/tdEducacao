@@ -111,11 +111,21 @@ main article{
     background: rgba(0, 0, 0, 0.800);
 }
 
-main article h1{
+/* main article h1{
     margin: 0;
-    text-transform: uppercase;
+    padding-top: 10px;
+     
     text-align: center;
+    text-transform: uppercase;
     font-size: 2.2rem;
+} */
+main article .imgTitle{
+    text-align: center;
+    padding: 10px 0;
+}
+
+main article .imgTitle img{
+    width: 500px;    
 }
 
 
@@ -186,10 +196,7 @@ footer header p{
 
 @media screen and (min-height: 767px) {
 
-    main article h1{
-        font-size: 3.5rem;
-    }
-
+    
     main article section div h2 span{
         font-size: 1.8rem;  
     }
