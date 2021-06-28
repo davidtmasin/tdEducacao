@@ -62,7 +62,6 @@ header nav{
 
 header nav .myLinks{
     font-size: 1.2rem;
-
     list-style: none;
     display: flex;
     flex-flow: row wrap;
@@ -116,7 +115,7 @@ main article h1{
     margin: 0;
     text-transform: uppercase;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
 }
 
 
@@ -130,7 +129,7 @@ main article section div{
 
 main article section div h2{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
     
@@ -154,7 +153,7 @@ main article section div h2 span:hover{
 }
 
 main article section div p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-indent: 2rem;
     line-height: 1.8rem;
     text-align: justify;
@@ -179,5 +178,28 @@ footer header{}
 
 footer header p{
     margin: 0 0 0 .5rem;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: .785rem;
+}
+
+/* Responsividade */
+
+@media screen and (min-height: 767px) {
+
+    main article h1{
+        font-size: 3.5rem;
+    }
+
+    main article section div h2 span{
+        font-size: 1.8rem;  
+    }
+
+    main article section div p{
+        font-size: 1.3rem;
+    }
+
+    footer header p{
+        font-size: 1.1rem;
+    }
+
 }
