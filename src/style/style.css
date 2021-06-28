@@ -100,10 +100,11 @@ header nav .myLinks li a:hover{
 }
 
 main{
-    height: 100vh;
+    height: 100%;
     background-image: url('../img/bg-main4.jpg');
     background-size: cover;
     color: #fff;
+    padding-bottom: 2rem;
 }
 
 main article{
@@ -120,11 +121,11 @@ main article h1{
 
 
 main article section{
-    /* height: 100%; */
+    height: 100%;
 }
 
 main article section div{
-    /* height: 100%; */
+    height: 100%;
 }
 
 main article section div h2{
