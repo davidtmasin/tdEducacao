@@ -115,7 +115,7 @@ main article h1{
     margin: 0;
     text-transform: uppercase;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 
@@ -153,7 +153,7 @@ main article section div h2 span:hover{
 }
 
 main article section div p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-indent: 2rem;
     line-height: 1.8rem;
     text-align: justify;
@@ -179,7 +179,7 @@ footer header{}
 footer header p{
     margin: 0 0 0 .5rem;
     font-weight: 500;
-    font-size: .785rem;
+    font-size: .890rem;
 }
 
 /* Responsividade */
@@ -199,7 +199,7 @@ footer header p{
     }
 
     footer header p{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
 }
