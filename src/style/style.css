@@ -181,6 +181,16 @@ main article section div p:hover{
     transition: all .5s;
 }
 
+
+main article .coreografiaSJ{
+    text-align: center;
+    padding: 10px 0;
+}
+
+main article .coreografiaSJ img{
+    width: 800px;    
+}
+
 footer{
     background: rgba(0, 0, 0, 0.875);
     color: #FFF;
