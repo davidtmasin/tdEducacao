@@ -104,12 +104,12 @@ main{
     background-image: url('../img/bg-main4.jpg');
     background-size: cover;
     color: #fff;
-    padding-bottom: 2rem;
 }
 
 main article{
     height: 100%;
     background: rgba(0, 0, 0, 0.800);
+    padding-bottom: 1.2rem;
 }
 
 /* main article h1{
@@ -132,6 +132,7 @@ main article .imgTitle img{
 
 main article section{
     height: 100%;
+    
 }
 
 main article section div{
