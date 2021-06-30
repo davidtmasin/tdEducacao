@@ -188,7 +188,7 @@ main article .coreografiaSJ{
 }
 
 main article .coreografiaSJ img{
-    width: 800px;    
+    width: 100vw;    
 }
 
 footer{
@@ -219,6 +219,10 @@ footer header p{
 
     footer header p{
         font-size: 1.2rem;
+    }
+
+    main article .coreografiaSJ img{
+        width: 800px;    
     }
 
 }
