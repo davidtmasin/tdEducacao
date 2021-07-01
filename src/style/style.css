@@ -193,6 +193,7 @@ main article .coreografiaSJ{
 main article .coreografiaSJ img{
     width: 95vw;    
     border-radius: 10px;
+    border: 2px solid #fff;
     
     -webkit-box-shadow: 5px 5px 13px 2px rgb(167, 255, 255); 
     box-shadow: 5px 5px 13px 2px rgb(167, 255, 255);
