@@ -149,6 +149,9 @@ main article section div h2{
     text-transform: uppercase;
     
 }
+.topico{
+    font-size: 1.8rem;
+}
 
 main article section div h2 span{
     background: rgba(0, 0, 0, 0.875);
@@ -168,9 +171,10 @@ main article section div h2 span:hover{
 }
 
 main article section div p{
+    padding: 0 5%;
     font-size: 1rem;
     text-indent: .5rem;
-    line-height: 1.8rem;
+    line-height: 1.9rem;
     text-align: justify;
     margin: 0 1rem 0 .5rem;
 
