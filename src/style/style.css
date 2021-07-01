@@ -129,7 +129,7 @@ main article .imgTitle{
 }
 
 main article .imgTitle img{
-    width: 300px;    
+    width: 85vw;    
 }
 
 
@@ -234,7 +234,11 @@ footer header p{
     }
 
     main article .coreografiaSJ img{
-        width: 800px;    
+        width: 50%;    
+    }
+
+    main article .imgTitle img{
+        width: 40%;    
     }
 
 }
