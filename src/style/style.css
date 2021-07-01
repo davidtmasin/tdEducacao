@@ -169,7 +169,7 @@ main article section div h2 span:hover{
 
 main article section div p{
     font-size: 1rem;
-    text-indent: 2rem;
+    text-indent: .5rem;
     line-height: 1.8rem;
     text-align: justify;
     margin: 0 1rem 0 .5rem;
