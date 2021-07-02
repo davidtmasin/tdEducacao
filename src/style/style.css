@@ -173,7 +173,7 @@ main article section div h2 span:hover{
 main article section div p{
     
 
-    padding: 0 25%;
+    padding: 0 5%;
     font-size: 1rem;
     text-indent: .5rem;
     line-height: 1.9rem;
@@ -196,7 +196,7 @@ main article .coreografiaSJ{
     padding: 10px 0;
 }
 
-main article .coreografiaSJ img{
+main article .coreografiaSJ img , iframe{
     width: 95vw;    
     border-radius: 10px;
     border: 2px solid #fff;
@@ -226,9 +226,16 @@ footer header p{
     main article section div h2 span{
         font-size: 1.8rem;  
     }
+    iframe{
+        width: 50%; 
+        height: 60vh;
+
+    }
 
     main article section div p{
         font-size: 1.3rem;
+
+        padding: 0 25%;
     }
 
     footer header p{
@@ -244,48 +251,3 @@ footer header p{
     }
 
 }
-
-
-/* LOADING ... */
-
-.full {
-    position:fixed;
-    inset:0;
-    z-index:116;
-    display: grid;
-    background:#fff;
-  }
-  .full:before {
-    content:"";
-    grid-area:1/1;
-    --s:67px; /* shape size */
-    --m:4px;  /* line thickness */
-  
-    --v1: #fff 119.5deg, #0000 120.5deg;
-    --v2: #000  119.5deg, #0000 120.5deg;
-    background:
-      conic-gradient(at var(--m)              calc(var(--s)*0.5777), transparent 270deg, #000 0deg),
-      conic-gradient(at calc(100% - var(--m)) calc(var(--s)*0.5777), #000 90deg,  transparent 0deg),
-      conic-gradient(from -60deg at 50% calc(var(--s)*0.8662)             , var(--v1)),
-      conic-gradient(from -60deg at 50% calc(var(--s)*0.8662 + 2*var(--m)), var(--v2)),
-      conic-gradient(from 120deg at 50% calc(var(--s)*1.4435 + 3*var(--m)), var(--v1)),
-      conic-gradient(from 120deg at 50% calc(var(--s)*1.4435 +   var(--m)), var(--v2)),
-      linear-gradient(90deg, #fff calc(50% - var(--m)),#000 0 calc(50% + var(--m)), #fff 0);
-    background-size: calc(var(--s) + 2*var(--m)) calc(var(--s)*1.732 + 3*var(--m)); 
-    -webkit-mask:linear-gradient(-60deg,#0000 calc(50% - 4*var(--s)),#000,#0000 calc(50% + 4*var(--s))) right/300% 100% no-repeat;
-    animation:f 3s infinite linear;
-  }
-  .full:after {
-    content:"CARREGANDO...";
-    grid-area:1/1;
-    font-family:monospace;
-    font-weight:bold;
-    font-size:13vmin;
-    margin:auto;
-    mix-blend-mode:difference;
-    color: #fff;
-  }
-  
-  @keyframes f {
-    100% {-webkit-mask-position:left}
-  }
